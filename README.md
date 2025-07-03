@@ -1,15 +1,17 @@
 # AI Story Generator
 
-This project implements an AI-powered Story Generator using Generative AI (GPT-2) and Streamlit.
+This project implements an AI-powered story generator using Generative AI (GPT-2) and Streamlit.
 
-## Project Overview
+---
 
-- **Goal:** Generate creative, contextually relevant stories based on user input using a pre-trained GPT-2 model.
-- **Technologies:** Python, HuggingFace Transformers, Streamlit
-- **Features:**  
-  - Simple web interface for user interaction  
-  - Generates multi-sentence or paragraph-length stories from a user prompt  
-  - Displays creative and coherent story continuations
+## Features
+
+- Generate creative, contextually relevant stories from any user prompt.
+- Simple and interactive web interface using Streamlit.
+- Fast, paragraph-length story generation.
+- Easy to use: just enter a prompt and get a story instantly!
+
+---
 
 ## How to Run
 
@@ -18,15 +20,40 @@ pip install streamlit transformers torch
 2. **Start the app:**
 streamlit run app.py
 3. **Usage:**  
-- Enter a story prompt in the web interface  
-- View the generated story continuation
+- Enter a story prompt in the web interface.
+- View the generated story continuation.
+
+---
 
 ## Example
 
 **Input:**  
-Once upon a time in Paris, a robot learned to paint...
+a robot learned to sing in paris
 **Generated Story:**  
-The robot wandered the streets, capturing the colors of the city on digital canvas. One day, he met a girl who asked him to paint her cat. Together, they discovered the magic of art and friendship in the heart of Paris.
+a robot learned to sing in paris, which was a rare occurrence in the early days of science.
+
+"This would have been a really big deal. I think that we could have had a huge surprise," Mr. Aoki said. "We'd have had an announcement like this, and we could have seen a lot of people talking about it."
+
+The team found a way to use a computer program called a D-Wave to sing the song, using a technique called a 'voice register' that has evolved over time. The team used a software that is so powerful that it can record high-quality audio.
+
+The technique was also used to create a computer program that could translate a melody into a song, known as an echolocation program.
+
+Professor Bijou said that the study was a milestone for the field of artificial intelligence. "We now know that this new technology can do a lot," he said. "The future is bright though."
+
+The study was published in the journal Science.
+
+---
+
+## Screenshots
+**App Home Page**
+
+![Home Page](screenshot1.png)
+
+**Generated Story Example**
+
+![Story Example](screenshot2.png)
+
+---
 
 ## Project Structure
 
@@ -34,17 +61,21 @@ The robot wandered the streets, capturing the colors of the city on digital canv
 - `requirements.txt` – Python dependencies
 - `README.md` – Project documentation
 
+---
+
 ## Results
 
 - The system generates creative and contextually relevant stories for a variety of prompts.
 - Handles both short and long prompts.
 - Responsive interface with minimal delay.
 
+---
+
 ## Author
 
-- **Student Name:** [Your Name]
-- **College Name:** [Your College]
-- **Email:** [Your Email]
+- **Student Name:** srikar
+- **College Name:** VIT-AP
+- **Email:** srikarjami77@gmail.com
 
 ---
 
